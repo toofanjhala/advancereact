@@ -6,6 +6,8 @@ import Card from '../UI/card';
 function Expense() {
     const expenses = [
         {
+
+            
             id: 'e1',
             title: 'Toilet Paper',
             destination: 'delhi',
