@@ -1,12 +1,12 @@
 import React from "react";
 import Expense from "./components/expenses/expense";
-import ExpenseForm from "./components/expenses/expenseform";
+import Newexpense from "./components/newexpense/newexpense";
 
 function App() {
 
   return (
     <div>
-     <ExpenseForm/>
+     <Newexpense/>
     <Expense></Expense>
     
     </div>
