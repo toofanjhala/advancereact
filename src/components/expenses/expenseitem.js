@@ -6,10 +6,12 @@ import './expenseitem.css'
 function Expenseitem(props) {
 
     return (
+        <li>
         <Card className='expense-item'>
             <ExpenseDate date={props.date} />
             <ExpenseDetail title={props.title} amount={props.amount}  />
         </Card>
+        </li>
     )
 }
 
